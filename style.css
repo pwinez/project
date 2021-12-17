@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+a, a:link, a:visited{
+text-decoration: none;
+outline: none;
+border: none;
+}
+
+ul, li{
+    list-style: none;
+    margin: 0;
+    padding: 0;  
+}
+section, span, p{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header{
+    background-image: url(header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.header-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+
+ul{
+    display: flex;
+}
+li{
+    margin-left: 25px;
+}
+
+
+a{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 50px;
+    padding: 10px;
+    
+
+}
+a:hover{
+    background-color: black;
+    color: white;
+    padding: 6px 10px;
+    
+    
+    
+    
+}
+
+.header-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 6rem;
+    font-weight: 100;
+    letter-spacing: 2px;
+
+}
+
+
+/* AOBUT */
+.about{
+    margin-bottom: 0x;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    background: rgb(219,227,230);
+    background: linear-gradient(176deg, rgba(219,227,230,1) 0%, rgba(146,145,143,1) 100%);
+}
+
+.about-title{
+    padding-top: 75px;
+
+}
+
+.about-title h2{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 6000;
+
+}
+.about-title h2::after{
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: black;
+    margin: 0 auto;
+    display: block;
+    margin-top: 7px;
+}
+
+.about-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.about-img {
+    width: 30%;
+   
+}
+.about-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-text{
+    width: 40%;
+}
+
+.about-text h4{
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 0.5rem;
+    font-weight: 100;
+}
